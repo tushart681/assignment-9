@@ -13,7 +13,7 @@ const Home = () => {
            <img className='h-64 w-64' src={image} alt="" />
            <p>quiz, a contest in which participants test what they know by answering questions on one or more topics.</p>
            </div>
-           <div className='grid grid-cols-4 gap-4 '>
+           <div className='grid grid-cols-4 gap-4 md:grid-cols-2 sm:grid-cols-1 '>
            {
             data.map(quizCard => <Cart key={quizCard.id} quizCard={quizCard}></Cart>)
            }

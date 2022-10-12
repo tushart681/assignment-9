@@ -1,9 +1,12 @@
-import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import Structure from './Structure';
 
 const Statics = () => {
+    const {data} = useLoaderData()
+    console.log(data);
     return (
         <div>
-            <h1>this is Statics</h1>
+            <Structure data={data}/>
         </div>
     );
 };

@@ -6,8 +6,11 @@ const QuizTest = ({questions, ans, setAns}) => {
     const [rightAns, setRightAns] = useState(false)
     const handleAns = button => {
         if(button === correctAnswer){
-            console.log('currect ans')
             setRightAns(true)
+            alert('your ans is right')
+        }
+        else{
+            alert('your ans is wrong')
         }
     }
     useEffect(()=>{

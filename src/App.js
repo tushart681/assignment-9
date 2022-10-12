@@ -33,7 +33,9 @@ function App() {
           element: <Quiz></Quiz>
         },
         {
-          path:'/statics', element: <Statics></Statics>
+          path:'/statics',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Statics></Statics>
         },
         {
           path:'/blogs', element: <Blogs></Blogs>
@@ -43,6 +45,10 @@ function App() {
     {
       path:'/',
       element:<Header></Header>
+    },
+    {
+      path:'*',
+      element: <h1>Please go to currect route</h1>
     }
   ])
   return (
