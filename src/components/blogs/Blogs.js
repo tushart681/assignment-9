@@ -9,7 +9,7 @@ const Blogs = () => {
             <br />
             <h1>How does context api works?</h1>
             <br />
-            <p>Context provides a way to pass data through the component tree without having to pass props down manually at every level.</p>
+            <p>Ans: Context provides a way to pass data through the component tree without having to pass props down manually at every level.</p>
             <br />
             <h1>What is useRef?</h1>
             <br />
