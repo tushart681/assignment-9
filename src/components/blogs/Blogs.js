@@ -5,7 +5,7 @@ const Blogs = () => {
         <div>
             <h1>What is the purpose of react-router?</h1>
             <br />
-            <p>ans: React Router is an API for React applications. Most current code is written with React Router 3, although version 4 has been released. React Router uses dynamic routing.</p>
+            <p>Ans: React Router is an API for React applications. Most current code is written with React Router 3, although version 4 has been released. React Router uses dynamic routing.</p>
             <br />
             <h1>How does context api works?</h1>
             <br />
